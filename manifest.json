@@ -6,10 +6,10 @@
     "colors": {
       "bookmark_text": [76, 76, 76],
       "button_background": [0, 0, 0],
-      "frame": [99, 110, 115],
-      "frame_inactive": [99, 110, 115],
-      "frame_incognito": [99, 110, 115],
-      "frame_incognito_inactive": [99, 110, 115],
+      "frame": [84, 110, 122],
+      "frame_inactive": [84, 110, 122],
+      "frame_incognito": [84, 110, 122],
+      "frame_incognito_inactive": [84, 110, 122],
       "ntp_background": [255, 255, 255],
       "ntp_text": [0, 0, 0],
       "tab_background_text": [64, 64, 64],
@@ -32,5 +32,5 @@
       "frame_incognito_inactive": [-1, -1, -1]
     }
   },
-  "version": "1.1"
+  "version": "1.2"
 }
