@@ -7,9 +7,9 @@
       "bookmark_text": [76, 76, 76],
       "button_background": [0, 0, 0],
       "frame": [84, 110, 122],
-      "frame_inactive": [84, 110, 122],
+      "frame_inactive": [71, 87, 95],
       "frame_incognito": [84, 110, 122],
-      "frame_incognito_inactive": [84, 110, 122],
+      "frame_incognito_inactive": [71, 87, 95],
       "ntp_background": [255, 255, 255],
       "ntp_text": [0, 0, 0],
       "tab_background_text": [64, 64, 64],
@@ -17,7 +17,10 @@
       "toolbar": [223, 223, 223]
     },
     "images": {
-      "theme_frame": "images/theme_frame.png"
+      "theme_frame": "images/theme_frame.png",
+      "theme_frame_inactive": "images/theme_frame_inactive.png",
+      "theme_incongnito_frame": "images/theme_frame.png",
+      "theme_frame_incognito_inactive": "images/theme_frame_inactive.png"
     },
     "properties": {
       "ntp_background_alignment": "bottom",
@@ -32,5 +35,5 @@
       "frame_incognito_inactive": [-1, -1, -1]
     }
   },
-  "version": "1.2"
+  "version": "1.3"
 }
