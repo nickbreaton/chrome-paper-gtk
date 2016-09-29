@@ -1,36 +1,36 @@
 {
-  "description":"",
-  "manifest_version":2,
-  "name":"Paper GTK",
-  "theme":{
-    "colors":{
-      "bookmark_text":[ 76, 76, 76 ],
-      "button_background":[ 0, 0, 0 ],
-      "frame":[ 99, 110, 115 ],
-      "frame_inactive":[ 99, 110, 115 ],
-      "frame_incognito":[ 99, 110, 115 ],
-      "frame_incognito_inactive":[ 99, 110, 115 ],
-      "ntp_background":[ 255, 255, 255 ],
-      "ntp_text":[ 0, 0, 0 ],
-      "tab_background_text":[ 64, 64, 64 ],
-      "tab_text":[ 0, 0, 0 ],
-      "toolbar":[ 223, 223, 223 ]
+  "description": "",
+  "manifest_version": 2,
+  "name": "Paper GTK",
+  "theme": {
+    "colors": {
+      "bookmark_text": [76, 76, 76],
+      "button_background": [0, 0, 0],
+      "frame": [99, 110, 115],
+      "frame_inactive": [99, 110, 115],
+      "frame_incognito": [99, 110, 115],
+      "frame_incognito_inactive": [99, 110, 115],
+      "ntp_background": [255, 255, 255],
+      "ntp_text": [0, 0, 0],
+      "tab_background_text": [64, 64, 64],
+      "tab_text": [0, 0, 0],
+      "toolbar": [223, 223, 223]
     },
-    "images":{
-      "theme_frame":"images/theme_frame.png"
+    "images": {
+      "theme_frame": "images/theme_frame.png"
     },
-    "properties":{
-      "ntp_background_alignment":"bottom",
-      "ntp_background_repeat":"no-repeat"
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     },
-    "tints":{
-      "buttons":[ 0, 0, 0.5 ],
-      "background_tab": [ -1, 0.5, 0.85 ],
-      "frame": [ -1, -1, -1 ],
-      "frame_inactive": [ -1, -1, -1 ],
-      "frame_incognito": [ -1, -1, -1 ],
-      "frame_incognito_inactive": [ -1, -1, -1 ]
+    "tints": {
+      "buttons": [0, 0, 0.5],
+      "background_tab": [-1, 0.5, 0.85],
+      "frame": [-1, -1, -1],
+      "frame_inactive": [-1, -1, -1],
+      "frame_incognito": [-1, -1, -1],
+      "frame_incognito_inactive": [-1, -1, -1]
     }
   },
-  "version":"1.1"
+  "version": "1.1"
 }
