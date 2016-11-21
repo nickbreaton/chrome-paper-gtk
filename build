@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+# change into directory of file
+cd $(dirname $0)
+
+# clean old distributions
+rm -rf dist
+
+# create directory for distributions
+mkdir dist
+
+for variant in light dark; do
+  # change to variants directory
+  cd $variant
+
+  # extract version number from manifest file
+  version=$(
+    cat manifest.json           \
+      | grep '"version"'        \
+      | sed -e 's/"/ /g'        \
+      | sed -e 's/:/ /g'        \
+      | sed -e 's/version/ /g'  \
+      | tr -d '[:space:]'       \
+  )
+
+  # create zip in distribution directory
+  zip -r ../dist/$variant-$version.zip . > /dev/null
+
+  # return to parent directory
+  cd ..
+done
+
+echo 'Done.'
