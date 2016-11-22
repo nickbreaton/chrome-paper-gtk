@@ -24,7 +24,7 @@ for variant in light dark; do
   )
 
   # create zip in distribution directory
-  zip -r ../dist/$variant-$version.zip . -x *.png -x *.pak > /dev/null
+  zip -r ../dist/$variant-$version.zip . -x screenshots/* -x *.pak > /dev/null
 
   # return to parent directory
   cd ..
