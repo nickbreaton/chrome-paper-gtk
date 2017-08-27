@@ -5,7 +5,7 @@
   "theme": {
     "colors": {
       "bookmark_text": [76, 76, 76],
-      "button_background": [0, 0, 0],
+      "button_background": [48, 63, 70],
       "frame": [48, 63, 70],
       "frame_inactive": [38, 49, 55],
       "frame_incognito": [48, 63, 70],
@@ -35,5 +35,5 @@
       "frame_incognito_inactive": [-1, -1, -1]
     }
   },
-  "version": "1.4"
+  "version": "1.5"
 }
